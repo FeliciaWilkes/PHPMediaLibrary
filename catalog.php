@@ -1,11 +1,11 @@
 <?php 
 include("./includes/header.php"); 
 
-$catalog = array (
-    "Design Patterns",
-    "Forrest Gump",
-    "Beethoven"
-);
+$catalog = array ();
+$catalog [101] = "Design Patterns";
+$catalog [201] = "Forrest Gump";
+$catalog [301] = "Beethoven";
+$catalog [102] = "Clean Code";
 
 $pageTitle = "Full Catalog";
 $section = null;
