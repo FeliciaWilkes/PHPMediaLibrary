@@ -1,9 +1,9 @@
 
 <?php 
-$pageTitle = 'Personal Media Library';
+$pageTitle = "Personal Media Library";
 $section = null;
 
-include ('./includes/header.php'); ?>
+include ("./includes/header.php"); ?>
 		<div class="section catalog random">
 
 			<div class="wrapper">
@@ -21,5 +21,5 @@ include ('./includes/header.php'); ?>
 	</div> 
 <!--        end content-->
 
-<?php inclue('./includes/footer.php'); ?>
+<?php inclue("./includes/footer.php"); ?>
         
