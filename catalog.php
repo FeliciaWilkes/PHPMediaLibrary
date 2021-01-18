@@ -1,9 +1,15 @@
-<?php inclue('./includes/header.php'); ?>
+<?php inclue('./includes/header.php'); 
 
 $pageTitle = 'Full Catalog';
-<div class="section page">
-    <h1>Full Catalog</h1>
-</div>
 
-<?php inclue('./includes/footer.php'); ?>
+if(isset($_GET['cat'])){
+    if ( $_GET['cat'] == 'books' ){
+        $pageTitle = 'Books';    
+    } else if ( $_GET['cat'] == 'movies' ){
+        $pageTitle = 'Movies';   
+    } else if ( $_GET['cat'] == 'music' ){
+        $pageTitle = 'Music';    
+    } 
+}
+ inclue('./includes/footer.php'); ?>
 
