@@ -1,15 +1,19 @@
 <?php inclue('./includes/header.php'); 
 
 $pageTitle = 'Full Catalog';
+$section = null;
 
 if(isset($_GET['cat'])){
     if ( $_GET['cat'] == 'books' ){
         $pageTitle = 'Books';    
+        $section = 'books';
     } else if ( $_GET['cat'] == 'movies' ){
-        $pageTitle = 'Movies';   
+        $pageTitle = 'Movies';        
+        $section = 'movies';
     } else if ( $_GET['cat'] == 'music' ){
-        $pageTitle = 'Music';    
+        $pageTitle = 'Music';  
+        $section = 'music';
     } 
 }
- inclue('./includes/footer.php'); ?>
+ include('./includes/footer.php'); ?>
 
