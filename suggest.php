@@ -5,3 +5,4 @@
     <h1>Suggest a Media Item</h1>
 </div>
 <!-- section page ending-->
+<?php inclue('./includes/footer.php'); ?>
